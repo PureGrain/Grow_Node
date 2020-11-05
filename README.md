@@ -1,10 +1,10 @@
-# Grow_Node_v_1
+# Grow_Node
 > ESP-12E NodeMCU Shield for indoor gardening.
  
  
  # Product Name
 
-This is a simple ESP-12E NodeMCU Shield I designed for my indoor gardening project.
+This is a simple ESP-12E NodeMCU Shield I designed for my indoor gardening project. Hence, Grow Node!
 
 ![](/images/v1.0.png)
 
