@@ -1,6 +1,5 @@
 # Grow Node
 
-* [Intro](#intro)
 * [Use Case](#use-case)
 * [Development](#development)
    * [The Setup](#the-setup)
@@ -8,8 +7,6 @@
 * [Installation](#installation)
 * [Release History](#release-history)
 
-
-## Intro:
 > ESP-12E NodeMCU Shield on STEROIDS for indoor gardening.
 
 ehh.. Actually it's just a shield for a NodeMCU that I designed to use for a bunch of soil moisture sensors to keep track of multiple plants in my home using [Blynk Dedicated Server](https://github.com/blynkkk/blynk-server) in a [Docker](https://www.docker.com/products/docker-desktop) container running on my Desktop. In the process I also track the temperature and relative humidity using a DHT22 sensor. All parts are obtainable from Amazon and I will be sharing those links as I get time to put this read me together. There is access to all of the pins on the NodeMCU to add additional sensors for those who want to hack away and build something custom.
