@@ -3,6 +3,7 @@
 * [Intro](#intro)
 * [Use Case](#use-case)
 * [Development](#development)
+   * [The Setup](the-setup)
 * [Parts List](#parts-list)
 * [Installation](#installation)
 * [Release History](#release-history)
@@ -31,7 +32,12 @@ The Grow Node can be used in all kinds of gardening projects. While I set this o
 
 ## Development:
 
-* You'll need [Arudion IDE](https://www.arduino.cc/en/software) or your favorite IDE you use to deploy your code to microcontrollers. If you're new to this, just go grab the [Arduino IDE](https://www.arduino.cc/en/software). It's the simplest. 
+* You'll need [Arudion IDE](https://www.arduino.cc/en/software) or your favorite IDE you use to deploy your code to microcontrollers. If you're new to this, just go grab the [Arduino IDE](https://www.arduino.cc/en/software). It's the simplest.
+
+# The Setup
+So, how does this thing actually work? I'll do my best to explain and then move on to putting together the files you'll need and quit messing with thiws read me.
+
+Buy/Obtain the parts, build the prototype, setup the Blynk Server, Download the Blynk app for your phone, connect and get it working, upload the provided sktech and watch the magic happen.
 
 ## Parts List:
 
