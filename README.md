@@ -1,6 +1,6 @@
 # Grow Node
 
-*This is a simple ESP-12E NodeMCU Shield I designed for my indoor gardening project. Hence, Grow Node!
+>This is a simple ESP-12E NodeMCU Shield I designed for my indoor gardening project. Hence, Grow Node!
 
 * [Use Case](#use-case)
 * [Development](#development)
