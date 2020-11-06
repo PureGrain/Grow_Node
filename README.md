@@ -15,7 +15,8 @@ ehh.. Actually it's just a shield for a NodeMCU that I designed to use for a bun
 
 OTA.. YAY!! I also wanted to be able to update the nodes without having to unplug and bring them into the house each time. So, I decided to add in the OTA code using some existing libraries and code I found using Google, which will be tagged/linked later in the [Installation](#installation) section.
 
-![](/images/v1.0.png)
+![](/images/v1.0.png) 
+![](/images/app_demo.png)
 
 ## Use Case:
 
