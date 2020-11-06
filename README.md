@@ -28,6 +28,8 @@ The Grow Node can be used in all kinds of gardening projects. While I set this o
 * 1.0.0
     * The first prototype breadboards have been in the field now for two weeks and working perfect. (pics coming)
     * I have the Dedicated Blynk Server and App dialed in working great. It is smooth and very easy to use once you see how it works. I'll be moving this to a dedicated virtual server on Digital Ocean for demo purposes and video tutorials I'm putting together. More to come.
+    
+*ToDo: Add mounting holes... ;) 
 
 ## Parts List
 
