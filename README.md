@@ -3,7 +3,7 @@
 * [Intro](#intro)
 * [Use Case](#use-case)
 * [Development](#development)
-   * [The Setup](the-setup)
+   * [The Setup](#the-setup)
 * [Parts List](#parts-list)
 * [Installation](#installation)
 * [Release History](#release-history)
