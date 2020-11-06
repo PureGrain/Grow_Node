@@ -8,7 +8,6 @@ http://github.com/PureGrain/Grow_Node
 */
 #define BLYNK_PRINT Serial
 
-#include <ESP8266WiFi.h>
 #include <ESP8266mDNS.h>
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
@@ -35,7 +34,8 @@ char auth[] = "oTbjLId3M83i31hBEPUE8Pa_SoVwKomz"; //  this is the Grow Project
 const char* ssid = STASSID;
 const char* password = STAPSK;
 
-#define DHTPIN D5         // What digital pin we're connected to
+//DHT22 Sensor
+#define DHTPIN D5 // What digital pin we're connected to for the DHT22 sensor
 
 // Uncomment whatever type you're using!
 //#define DHTTYPE DHT11     // DHT 11
@@ -89,7 +89,7 @@ void setup() {
   // ArduinoOTA.setPort(8266);
 
   // Hostname defaults to esp8266-[ChipID]
-   ArduinoOTA.setHostname("grow01"); // you can change this or not use it at all
+   ArduinoOTA.setHostname("grow01"); // you can change this or not use it at all. I prefer to name them so i can easily find them when doing OTA updates.
 
   // No authentication by default
   // ArduinoOTA.setPassword("admin");
@@ -181,5 +181,6 @@ void loop() {
   Blynk.run();
   timer.run();
   
+  //end the OTA code
   ArduinoOTA.handle();
 }
