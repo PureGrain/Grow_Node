@@ -11,7 +11,7 @@
 
 > ESP-12E NodeMCU Shield on STEROIDS for indoor gardening.
 
-ehh.. Actually it's just a shield for a NodeMCU that I designed to use for a bunch of soil moisture sensors to keep track of multiple plants in my home using [Blynk Dedicated Server](https://github.com/blynkkk/blynk-server) in a [Docker](https://www.docker.com/products/docker-desktop) container running on my Desktop. [Get the container here](https://github.com/mpherg/blynk-server) In the process I also track the temperature and relative humidity using a DHT22 sensor. All parts are obtainable from Amazon and I will be sharing those links as I get time to put this read me together. There is access to all of the pins on the NodeMCU to add additional sensors for those who want to hack away and build something custom.
+ehh.. Actually it's just a shield for a NodeMCU that I quickly designed (my first Fritzing to PCB Design) to use for a bunch of soil moisture sensors to keep track of multiple plants in my home using [Blynk Dedicated Server](https://github.com/blynkkk/blynk-server) in a [Docker](https://www.docker.com/products/docker-desktop) container running on my Desktop. [Get the container here](https://github.com/mpherg/blynk-server) In the process I also track the temperature and relative humidity using a DHT22 sensor. All parts are obtainable from Amazon and I will be sharing those links as I get time to put this read me together. There is access to all of the pins on the NodeMCU to add additional sensors for those who want to hack away and build something custom.
 
 OTA.. YAY!! I also wanted to be able to update the nodes without having to unplug and bring them into the house each time. So, I decided to add in the OTA code using some existing libraries and code I found using Google, which will be tagged/linked later in the [Installation](#installation) section.
 
@@ -35,9 +35,11 @@ The Grow Node can be used in all kinds of gardening projects. While I set this o
 * You'll need [Arudion IDE](https://www.arduino.cc/en/software) or your favorite IDE you use to deploy your code to microcontrollers. If you're new to this, just go grab the [Arduino IDE](https://www.arduino.cc/en/software). It's the simplest.
 
 ### The Setup
-So, how does this thing actually work? I'll do my best to explain and then move on to putting together the files you'll need and quit messing with thiws read me.
+So, how does this thing actually work? 
 
-Buy/Obtain the parts, build the prototype, setup the Blynk Server, Download the Blynk app for your phone, connect and get it working, upload the provided sktech and watch the magic happen.
+> I'll do my best to explain and then move on to putting together the files you'll need and quit messing with this read me.
+
+Buy/Obtain the parts, build the prototype, setup the Blynk Server, Download the Blynk app for your phone, connect and get it Blynk working, edit/upload the provided sktech and watch the magic happen.
 
 ## Parts List:
 
