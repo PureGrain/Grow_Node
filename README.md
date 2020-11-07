@@ -8,6 +8,7 @@
 * [Parts List](#parts-list)
 * [Installation](#installation)
 * [Release History](#release-history)
+* [Contributions](#contributions)
 
 > ESP-12E NodeMCU Shield on STEROIDS for indoor gardening.
 
