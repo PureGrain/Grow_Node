@@ -64,7 +64,7 @@ Coming soon.
 
 ## Contributions
 
-https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-docker-registry-on-ubuntu-18-04
-https://aisler.net/
+* https://www.digitalocean.com/community/tutorials/how-to-set-up-a-private-docker-registry-on-ubuntu-18-04
+* https://aisler.net/
 
 
