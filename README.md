@@ -16,7 +16,9 @@ ehh.. Actually it's just a shield for a NodeMCU that I quickly designed (my firs
 
 OTA.. YAY!! I also wanted to be able to update the nodes without having to unplug and bring them into the house each time. So, I decided to add in the OTA code using some existing libraries and code I found using Google, which will be tagged/linked later in the [Installation](#installation) section.
 
+> Here is an image of the prototype board v1.0. I have ordered three of these to do the first run of major testing. Video's to follow as I progress.
 ![](/images/v1.0.png) 
+> This is a crude view of the application I pieced together in the Blynk app, using the dedicated Blynk Server container running on a Digital ocean VM.
 ![](/images/app_demo.png)
 
 ## Use Case:
