@@ -3,6 +3,7 @@
 >This is a simple ESP-12E NodeMCU Shield I designed for my indoor gardening project. Hence, Grow Node!
 
 * [Use Case](#use-case)
+* [What Does It Do](#what-does-it-do)
 * [Development](#development)
    * [The Setup](#the-setup)
 * [Parts List](#parts-list)
@@ -12,14 +13,24 @@
 
 > ESP-12E NodeMCU Shield on STEROIDS for indoor gardening.
 
-ehh.. Actually it's just a shield for a NodeMCU that I quickly designed (my first Fritzing to PCB Design) to use for a bunch of soil moisture sensors to keep track of multiple plants in my home using [Blynk Dedicated Server](https://github.com/blynkkk/blynk-server) in a [Docker](https://www.docker.com/products/docker-desktop) container running on my Desktop. [Get the container here](https://github.com/mpherg/blynk-server) In the process I also track the temperature and relative humidity using a DHT22 sensor. All parts are obtainable from Amazon and I will be sharing those links as I get time to put this read me together. There is access to all of the pins on the NodeMCU to add additional sensors for those who want to hack away and build something custom.
+ehh.. Actually it's just a shield for a NodeMCU that I quickly designed (my first Fritzing to PCB Design) to use for a bunch of soil moisture sensors to keep track of multiple plants in my home using [Blynk Dedicated Server](https://github.com/blynkkk/blynk-server) in a [Docker](https://www.docker.com/products/docker-desktop) container running on my Desktop.
 
-OTA.. YAY!! I also wanted to be able to update the nodes without having to unplug and bring them into the house each time. So, I decided to add in the OTA code using some existing libraries and code I found using Google, which will be tagged/linked later in the [Installation](#installation) section.
+[Get the container here](https://github.com/mpherg/blynk-server)
+
+In the process I also track the temperature and relative humidity using a DHT22 sensor. All parts are obtainable from Amazon and I will be sharing those links as I get time to put this read me together. There is access to all of the pins on the NodeMCU to add additional sensors for those who want to hack away and build something custom.
+
+> OTA updates??  I think yes!!
+
+I also wanted to be able to update the nodes without having to unplug and bring them into the house each time. Hence... OTA (Over-The-Air) or Wi-Fi for those who don't understand it. I decided to add in the OTA code using some existing libraries and code I found using Google, which will be tagged/linked later in the [Installation](#installation) section.
 
 > Here is an image of the prototype board v1.0. I have ordered three of these to do the first run of major testing. Video's to follow as I progress.
 ![](/images/v1.0.png) 
 > This is a crude view of the application I pieced together in the Blynk app, using the dedicated Blynk Server container running on a Digital ocean VM.
 ![](/images/app_demo.png)
+
+## What Does It Do:
+
+Well, it monitors plants or soil, or a bucket of water for that matter for moisture. Using a simple capacitive soil moisture sensor and a few other simple programable parts easily obtainable online. A list will be provided below as this ReadMe file is updated along with project files and notes.
 
 ## Use Case:
 
