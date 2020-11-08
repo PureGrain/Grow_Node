@@ -1,6 +1,6 @@
-# Grow Node
+# Grow Node :seedling:
 
->This is a simple ESP-12E NodeMCU Shield I designed for my indoor gardening project. Hence, Grow Node!
+>This is a simple ESP-12E NodeMCU Shield I designed for my indoor gardening project. Hence, Grow Node! :seedling:
 
 * [Use Case](#use-case)
 * [What Does It Do](#what-does-it-do)
@@ -11,7 +11,7 @@
 * [Release History](#release-history)
 * [Contributions](#contributions)
 
-> ESP-12E NodeMCU Shield on STEROIDS for indoor gardening.
+> ESP-12E NodeMCU Shield on STEROIDS for indoor gardening. :seedling:
 
 ehh.. Actually it's just a shield for a NodeMCU that I quickly designed (my first Fritzing to PCB Design) to use for a bunch of soil moisture sensors to keep track of multiple plants in my home using [Blynk Dedicated Server](https://github.com/blynkkk/blynk-server) in a [Docker](https://www.docker.com/products/docker-desktop) container running on my Desktop.
 
