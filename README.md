@@ -13,7 +13,7 @@
 
 > ESP-12E NodeMCU Shield on STEROIDS for indoor gardening. :seedling:
 
-UDPOATE: 02/21/2025 - Getting back to this Grow_Node project and others. The PCB I designed and had ordered did not work, because I did not pay attention to the thru-hole size. So the pins (if your nodemcu has them soldered on already) will not fit. I have not messed with just laying it on the surface and soldering it in. I had some life events happen that slowed my pace on hobby projects. But, I will begin dev on this again, very soon.
+* Update: 02/21/2025 - Getting back to this Grow_Node project and others. The PCB I designed and had ordered did not work, because I did not pay attention to the thru-hole size. So the pins (if your nodemcu has them soldered on already) will not fit. I have not messed with just laying it on the surface and soldering it in. I had some life events happen that slowed my pace on hobby projects. But, I will begin dev on this again, very soon.
 
 ehh.. Actually it's just a shield for a NodeMCU that I quickly designed (my first Fritzing to PCB Design) to use for a bunch of soil moisture sensors to keep track of multiple plants in my home using [Blynk Dedicated Server](https://github.com/blynkkk/blynk-server) in a [Docker](https://www.docker.com/products/docker-desktop) container running on my Desktop.
 
